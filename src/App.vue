@@ -27,4 +27,17 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+.first {
+  margin-top: 100px;
+}
+.second {
+  margin-top: -50px;
+}
+.who-am-i {
+  margin-top: -10px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 40px;
+  color: #a7a8a7;
+
+}
 </style>
