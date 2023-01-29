@@ -1,25 +1,20 @@
 <template>
-  <p v-if="visible">
-    {{content[0]}}
-  </p>
+  <transition name="fade" appear>
+    <p>A Software Developer <br> from Germany</p>
+  </transition>
 </template>
 
 <script>
-//import {defineProps} from "vue";
 export default {
   name: "FadingText",
-  props: ['content', 'start'],
-  // TODO: Find out how to use props in script
-  /*setup() {
-    const props = defineProps({content: String, start: String})
-    let visible = false;
-    /*setTimeout(parseInt(props.start))
-    visible = true;
-    return { visible };
-  }*/
 }
 </script>
 
 <style scoped>
-
+  .fade-enter-active {
+    transition: opacity 3s ease;
+  }
+  .fade-enter-from {
+    opacity: 0;
+  }
 </style>
