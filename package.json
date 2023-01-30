@@ -15,7 +15,6 @@
     "sass-loader": "^13.2.0",
     "typed.js": "^2.0.12",
     "vue": "^3.2.13",
-    "vue-meta": "^2.4.0",
     "vue-writer": "^1.2.0"
   },
   "devDependencies": {

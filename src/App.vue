@@ -15,9 +15,6 @@ export default {
   components: {
     IntroductionBlock,
   },
-  metaInfo: {
-    title: "Noah Fuhst"
-  }
 }
 </script>
 
