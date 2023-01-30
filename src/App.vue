@@ -1,5 +1,4 @@
 <template>
-  <title>Noah Fuhst</title>
   <div class="ms-3 mt-5">
     <IntroductionBlock/>
   </div>
