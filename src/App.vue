@@ -15,6 +15,9 @@ export default {
   components: {
     IntroductionBlock,
   },
+  created() {
+    document.title = "Noah Fuhst";
+  }
 }
 </script>
 
