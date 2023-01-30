@@ -14,6 +14,9 @@ export default {
   name: 'App',
   components: {
     IntroductionBlock,
+  },
+  metaInfo: {
+    title: "Noah Fuhst"
   }
 }
 </script>
