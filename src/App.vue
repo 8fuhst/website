@@ -2,14 +2,15 @@
   <div class="flex h-full">
     <div class="grid grid-cols-2">
       <div class="grid grid-rows-3">
-        <div class="ml-5 row-span-2">
-          <IntroductionBlock/>
-        </div>
-        <div class="flex">
-          <div class="ml-5 -mt-1 grid grid-cols-2 grid-rows-1">
-            <SocialMediaButton class="" v-for="media in socialMedia" :media="media" :key="media"/>
+        <div class="ml-5 row-start-2">
+          <IntroductionBlock class="content-start"/>
+          <div class="flex row-start-3">
+            <div class="mt-2 grid grid-cols-2">
+              <SocialMediaButton class="" v-for="media in socialMedia" :media="media" :key="media"/>
+            </div>
           </div>
         </div>
+
       </div>
       <div>
         <ImageDisplay/>
