@@ -3,7 +3,7 @@
     <GothicVueWriter :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
   </div>
   <div :style="{ fontSize: 72 + 'px'}" class="flex second">
-    <GothicVueWriter :array="['Jeg er Noah!', 'I\'m Noah!', 'Ich bin Noah!']" :typeSpeed="80"
+    <GothicVueWriter :array="['Ich bin Noah!']" :typeSpeed="80" :iterations="1"
                      :start="2500"/>
   </div>
   <div :style="{ fontSize: 34 + 'px'}" class="flex who-am-i">
