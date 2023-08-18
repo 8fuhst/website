@@ -1,6 +1,15 @@
 <template>
-  <div class="ms-3 mt-5">
-    <IntroductionBlock/>
+  <div class="flex">
+    <div class="grid grid-cols-2">
+      <div class="grid grid-rows-5">
+        <div class="ml-5 row-span-3">
+          <IntroductionBlock/>
+        </div>
+      </div>
+      <div>
+        <ImageDisplay/>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -9,11 +18,13 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "bootstrap"
 import IntroductionBlock from "@/components/IntroductionBlock";
+import ImageDisplay from "@/components/ImageDisplay";
 
 export default {
   name: 'App',
   components: {
     IntroductionBlock,
+    ImageDisplay
   },
   created() {
     document.title = "Noah Fuhst";
@@ -28,19 +39,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
-  margin-top: 60px;
-}
-.first {
-  margin-top: 100px;
-}
-.second {
-  margin-top: -50px;
-}
-.who-am-i {
-  margin-top: -10px;
-  font-family: "Quicksand", sans-serif;
-  line-height: 40px;
-  color: #a7a8a7;
-
 }
 </style>

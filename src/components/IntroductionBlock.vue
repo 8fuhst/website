@@ -1,12 +1,12 @@
 <template>
-  <div :style="{ fontSize: 84 + 'px'}" class="flex first">
+  <div :style="{ fontSize: 72 + 'px'}" class="flex first">
     <GothicVueWriter :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
   </div>
-  <div :style="{ fontSize: 84 + 'px'}" class="flex second">
-    <GothicVueWriter :array="['Jeg er Noah!'/*, 'I\'m Noah!', 'Ich bin Noah!'*/]" :iterations="1" :typeSpeed="80"
+  <div :style="{ fontSize: 72 + 'px'}" class="flex second">
+    <GothicVueWriter :array="['Jeg er Noah!', 'I\'m Noah!', 'Ich bin Noah!']" :typeSpeed="80"
                      :start="2500"/>
   </div>
-  <div :style="{ fontSize: 42 + 'px'}" class="flex who-am-i">
+  <div :style="{ fontSize: 34 + 'px'}" class="flex who-am-i">
     <FadingText/>
   </div>
 </template>
@@ -26,5 +26,17 @@ export default {
 <style scoped>
 .fade-enter-active {
   transition-delay: 4s;
+}
+.first {
+  margin-top: 100px;
+}
+.second {
+  margin-top: -40px;
+}
+.who-am-i {
+  margin-top: -10px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 40px;
+  color: #a7a8a7;
 }
 </style>

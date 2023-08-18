@@ -1,13 +1,13 @@
 <template>
-$END$
+  <img class="h-100 w-100 object-cover object-center" :src="require('./images/website_img.jpg')"/>
 </template>
 
 <script>
+
 export default {
-name: "ImageDisplay"
+  name: "ImageDisplay",
 }
 </script>
 
 <style scoped>
-
 </style>
