@@ -23,7 +23,7 @@ export default defineComponent({
   methods: {
     openLink() {
       window.open(this.link)
-    }
+    },
   }
 })
 
@@ -31,7 +31,9 @@ export default defineComponent({
 
 <template>
   <transition name="fade" appear>
-    <img class="w-8 mr-5" :src=image @click="openLink()" alt=""/>
+    <div class="mr-5 rounded-md scale-100 hover:scale-105 ease-in duration-150 hover:drop-shadow-md">
+      <img class="rounded-lg w-8 " :src=image @click="openLink()" alt="" @mouseover="highlight"/>
+    </div>
   </transition>
 </template>
 

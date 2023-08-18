@@ -1,5 +1,5 @@
 <template>
-  <GothicVueWriter class="text-7xl mt-36" :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
+  <GothicVueWriter class="text-7xl" :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
   <GothicVueWriter class="text-7xl" :array="['I\'m Noah.']" :typeSpeed="80" :iterations="1"
                      :start="2500"/>
   <FadingText class="text-4xl who-am-i"/>
