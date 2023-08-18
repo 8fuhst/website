@@ -1,5 +1,5 @@
 <template>
-  <img class="h-100 w-100 object-cover object-center" :src="require('./images/website_img.jpg')"/>
+  <img class="h-full w-auto object-cover object-center" :src="require('./images/website_img.jpg')"/>
 </template>
 
 <script>

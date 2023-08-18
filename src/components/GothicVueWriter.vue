@@ -1,5 +1,5 @@
 <template>
-  <VueWriter />
+  <VueWriter/>
 </template>
 
 <script>

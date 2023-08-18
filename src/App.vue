@@ -1,5 +1,5 @@
 <template>
-  <div class="flex">
+  <div class="flex h-full">
     <div class="grid grid-cols-2">
       <div class="grid grid-rows-5">
         <div class="ml-5 row-span-3">
@@ -39,5 +39,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: left;
   color: #2c3e50;
+  height: 100vh;
 }
 </style>

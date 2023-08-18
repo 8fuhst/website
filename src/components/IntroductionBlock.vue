@@ -1,14 +1,8 @@
 <template>
-  <div :style="{ fontSize: 72 + 'px'}" class="flex first">
-    <GothicVueWriter :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
-  </div>
-  <div :style="{ fontSize: 72 + 'px'}" class="flex second">
-    <GothicVueWriter :array="['Ich bin Noah!']" :typeSpeed="80" :iterations="1"
+  <GothicVueWriter class="text-7xl mt-24" :array="['Hello, World!']" :typeSpeed="80" :iterations="1" />
+  <GothicVueWriter class="text-7xl" :array="['I\'m Noah.']" :typeSpeed="80" :iterations="1"
                      :start="2500"/>
-  </div>
-  <div :style="{ fontSize: 34 + 'px'}" class="flex who-am-i">
-    <FadingText/>
-  </div>
+  <FadingText class="text-4xl who-am-i"/>
 </template>
 
 <script>
@@ -27,14 +21,7 @@ export default {
 .fade-enter-active {
   transition-delay: 4s;
 }
-.first {
-  margin-top: 100px;
-}
-.second {
-  margin-top: -40px;
-}
 .who-am-i {
-  margin-top: -10px;
   font-family: "Quicksand", sans-serif;
   line-height: 40px;
   color: #a7a8a7;
